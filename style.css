@@ -30,7 +30,8 @@
 }
 
 body{
-  width: var(--page-width);
+  display: flex;
+  justify-content: center;
   height: var(--page-height);
   margin: 0;
   font-family: "Open Sans", sans-serif; 
@@ -51,7 +52,7 @@ li{
 
 #main{
   float: left;
-  width: var(--main-width);
+  max-width: 600px; /* Adjust this value to fit your needs */
   padding: 0.25in 0.25in 0 0.25in;
   font-size: 7pt;
 }
